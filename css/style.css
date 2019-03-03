@@ -1,0 +1,268 @@
+body {
+    background-image: url('../images/white-waves.png');
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px; 
+    margin-bottom: 25px;
+}
+
+.navbar {
+    width: 1000px;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px; 
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.name {
+    position: absolute;
+    left: 30px;
+    height: 50px;
+    width: 120px;
+    background-color: #4aaaa5; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+.navcontent {
+    position: absolute;
+    right: -18px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    /* background-color: blue; */
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none; 
+    color: #777777;
+}
+
+.border {
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-right-width: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ .body { 
+    box-sizing: content-box;
+    width: 900px;
+    background-color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+    line-height: 30px; 
+    font-size: 16px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+}
+
+img {
+    height: 120px;
+    width: 160px;
+}
+
+.bio {
+    float: left;
+    margin-right: 10px;
+    height: 140px;
+    width: 140px;
+}
+
+.button {
+   background-color: #4aaaa5; 
+   color: #ffffff;
+   height: 40px;
+   width: 115px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px; 
+   border-style: none;
+}
+
+.footbar {
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px; 
+    margin-top: 25px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 20px;
+}
+
+input, textarea {
+    height: 20px;
+    width: 900px;
+}
+
+textarea {
+    height: 200px;
+}
+
+#name, #email, #message {
+    margin-top: 5px;
+}
+
+.pic {
+    margin: 0px 70px 40px 0px;
+}
+
+ .photo {
+    float: left;
+    position: relative;
+}
+
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    bottom: 16px;
+    background-color: #4aaaa5;
+    width: 160px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #ffffff;
+}
+
+@media (max-width: 980px) {
+    .name {
+        left: 120px;
+    }
+    
+    .navcontent {
+        right: 95px;
+    }
+
+    .body {
+        width: 700px;
+    }
+
+    input, textarea {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        left: 65px;
+    }
+    
+    .navcontent {
+        right: 250px;
+    }
+
+    .body {
+        width: 600px;
+    }
+
+    input, textarea {
+        width: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .navbar {
+        width: 600px;
+        height: 100px;
+        padding-right: 50px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .name {
+        width: 100%;
+        left: 0px;
+    }
+    
+    .navcontent {
+        left: 145px;
+        width: 350px;
+        line-height: 115px;
+    }
+
+    .body {
+        width: 500px;
+    }
+
+    input, textarea {
+        width: 500px;
+    }
+}
