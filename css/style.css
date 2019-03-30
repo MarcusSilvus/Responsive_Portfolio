@@ -199,6 +199,16 @@ h6 {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
 @media (max-width: 980px) {
     .name {
         left: 120px;
